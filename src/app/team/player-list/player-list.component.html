@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Nom</th>
+      <th>Pos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let player of players">
+      <td>{{player.uniform_number}}</td>
+      <td>{{player.first_name}} {{player.last_name}}</td>
+      <td>{{player.position}}</td>
+    </tr>
+  </tbody>
+</table>
